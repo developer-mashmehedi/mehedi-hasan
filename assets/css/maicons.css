@@ -2512,6 +2512,9 @@
 .mai-trash:before {
   content: "\eb79";
 }
+.contentbar{
+  padding-top: 80px;
+}
 .mai-trash-bin:before {
   content: "\eb7a";
 }
