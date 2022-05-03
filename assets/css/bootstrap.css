@@ -4752,6 +4752,27 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+.card:hover {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(247, 109, 194);
+  /* color: rgb(255, 255, 255); */
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.50rem;
+  box-shadow: 10px 15px 30px gray;
+  transform: scale(1.2);
+  /* width: 150%; */
+  transition: 0.67s;
+}
+.container-map{
+  margin: 15px;
+}
 
 .card > hr {
   margin-right: 0;
