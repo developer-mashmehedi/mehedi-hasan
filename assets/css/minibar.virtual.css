@@ -312,7 +312,7 @@
 }
 
 .timeline li .details {
-    background-color: #f4f5f8;
+    /* background-color: rgba(237, 249, 254); */
     margin-top: 8px;
     padding: 20px;
     border-radius: 4px;
