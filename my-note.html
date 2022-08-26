@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Note</title>
+</head>
+<body>
+    <div>
+
+
+        <!-- my text area -->
+
+
+
+        <textarea name="" id="" cols="1000000" rows="1000000000">
+
+
+            #include<stdio.h>
+
+                int main()
+                {
+                    int year, modulas, firstRcmnd, scndRcmnd;
+                
+                    printf("Choose your Year: ");
+                    scanf("%d", &year);
+                
+                    modulas = year % 4;
+                    firstRcmnd = year - modulas;
+                    scndRcmnd = firstRcmnd + 4;
+                
+                    if(year % 400 == 0)
+                    {
+                        printf("%d is a leap year", year);
+                    }
+                    else if(year % 100 == 0)
+                    {
+                        printf("%d is not leap year\n", year);
+                        printf("Your recommended leap year is %d %d", firstRcmnd - 4, scndRcmnd);
+                    }
+                    else if(modulas == 0)
+                    {
+                        printf("%d is a leap year", year);
+                    }
+                    else
+                    {
+                        printf("%d is not leap year\n", year);
+                        printf("Your recommended leap year is %d %d", firstRcmnd, scndRcmnd);
+                    }
+                
+                    return 0;
+                }
+                
+
+
+        </textarea>
+
+
+        <!-- My text area -->
+
+
+
+    </div>
+</body>
+</html>
